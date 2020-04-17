@@ -1,0 +1,15 @@
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.galeria img {
+    background-color: cadetblue;
+    padding: 3px;
+    border: coral solid 5px;
+}
