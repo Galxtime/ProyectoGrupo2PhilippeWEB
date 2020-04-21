@@ -1,0 +1,22 @@
+.body {
+    margin: 0; 
+    padding: 0; 
+}
+.h1 {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+.contenedor {
+    width: 100;
+    margin: auto;
+}
+.img {
+    width: 100%;
+}
+.galeria {
+    margin: 5px;
+}
+.panes {
+    display: grid;
+}
