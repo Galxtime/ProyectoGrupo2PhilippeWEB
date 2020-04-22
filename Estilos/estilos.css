@@ -7,15 +7,21 @@ body {
 
 
 .contenedor_1 {
+
     display: flex;
     padding: 40px;
     background-color: rgb(158, 112, 81);
     text-align: center;
-    justify-content: space-evenly;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
     background-image: linear-gradient(rgba(95, 63, 45, 0.6), rgba(95, 63, 45, 0.6)),
         url(https://www.philippe.com.co/wp-content/uploads/2019/12/Philippe-Pastelería-sin-azucar-V31.jpg);
+    flex-wrap: wrap;
+    padding: 10px;
+
+
 }
 
 .texto {
@@ -29,14 +35,16 @@ body {
 
 .texto_2 {
 
-
     color: #5f3f2d;
-
 
 }
 
 img {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .cartas {
@@ -46,11 +54,13 @@ img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
+    display: block;
+
 }
 
 
 .color_texto {
-
     color: rgb(37, 30, 30);
     text-align: center;
     width: 50%;
@@ -67,8 +77,10 @@ img {
     background-color: rgb(224, 215, 208);
     text-align: center;
     justify-content: space-evenly;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-image: linear-gradient(rgba(240, 237, 235, 0.6), rgba(240, 237, 235, 0.6)),
         url(https://www.philippe.com.co/wp-content/uploads/2019/12/spiration-light.png);
 }
