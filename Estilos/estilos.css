@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+
+/************************* 1 contenedor ********************/
+
+
+.contenedor_1 {
+    display: flex;
+    padding: 40px;
+    background-color: rgb(158, 112, 81);
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(95, 63, 45, 0.6), rgba(95, 63, 45, 0.6)),
+        url(https://www.philippe.com.co/wp-content/uploads/2019/12/Philippe-Pastelería-sin-azucar-V31.jpg);
+}
+
+.texto {
+
+    padding: 10px;
+    color: black;
+    text-align: center;
+    background-color: rgb(244, 245, 247);
+
+}
+
+.texto_2 {
+
+
+    color: #5f3f2d;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.cartas {
+
+    justify-items: center;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.color_texto {
+
+    color: rgb(37, 30, 30);
+    text-align: center;
+    width: 50%;
+    text-align: center;
+}
+
+
+/************************* 2 contenedor ********************/
+
+
+.contenedor_2 {
+    display: flex;
+    padding: 40px;
+    background-color: rgb(224, 215, 208);
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(240, 237, 235, 0.6), rgba(240, 237, 235, 0.6)),
+        url(https://www.philippe.com.co/wp-content/uploads/2019/12/spiration-light.png);
+}
+
+
+.correo {
+    height: 40px;
+    background-color: rgb(198, 228, 228);
+    text-align: center;
+    color: rgb(19, 22, 21);
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.formulario {
+    height: 40px;
+    background-color: teal;
+    text-align: center;
+    color: rgb(79, 196, 161);
+    padding-top: 20px;
+    position: relative;
+    align-items: center;
+}
+
+
+.iconos {
+
+    width: 40px;
+    margin: 0;
+    display: flex;
+    padding: 10px;
+    padding-left: 90px
+}
+
+.telefono {
+    width: 40px;
+    box-sizing: inherit;
+}
