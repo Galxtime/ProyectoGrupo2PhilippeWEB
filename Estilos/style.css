@@ -3,18 +3,49 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.box{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 1em;
+    padding-bottom: 75px;
+    padding-left: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 1200px;
+}
+.seccion{
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    display: block;
+}
+.caja{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 .flex-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    text-align: justify;
     margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 2em;
+
 }
 .flex-contenido{
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     padding-left:0.6em;
     padding-top: 0.6em;
     padding-right: 0.6em;
@@ -23,6 +54,9 @@ body{
     margin-right: 0.2em;
     margin-bottom: 0.2em;
     margin-top: 0.2em;
+    transition-duration: 0.4s;
+    align-items: center;
+    text-align: center;
     width: 18%;
     box-sizing: inherit;
     border-radius: 15px;
@@ -43,10 +77,11 @@ body{
 .titulo{
     margin-bottom: 16px;
     font-weight: 600;
-    color:#5f3f2d ;
+    color:#583b29 ;
     font-size: 30px;
     text-align: center;
-    font-family: 'Muli';
+    font-family: 'Muli', sans-serif;
+    letter-spacing: -1px;
 }
 .base{
     letter-spacing: -0.2px;
@@ -63,7 +98,6 @@ body{
     text-align: center;
     text-decoration: none;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     color: #764c24; 
 }
