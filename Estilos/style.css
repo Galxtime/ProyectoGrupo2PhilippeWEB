@@ -116,7 +116,7 @@ body{
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
