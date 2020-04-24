@@ -64,7 +64,7 @@ body{
 .flex-sombra:hover{
     box-shadow: 1px 1px 1px 1px rgb(224, 220, 220);
 }
-.img{
+.img-1{
     width: 150px;
     clear: none;
     position: static;
@@ -149,7 +149,7 @@ body{
     text-align: center;
     box-sizing: inherit;
 }
-.img{
+.img-juan{
     width: 2.6em;
     margin-bottom: 0.4em;
     max-width: 100%;
@@ -263,7 +263,7 @@ body{
     font-family: 'Muli', sans-serif;
     color: rgb(133, 77, 52);
 }
-.img-ultima{
+.imagg-ultima{
     margin-bottom: 0px;
     max-width: 100%;
     border-style: none;
@@ -281,4 +281,8 @@ body{
     position: fixed;
     bottom: 10px;
     left: 10px;
+    width: 60;
+}
+.imag-2{
+    width: 60;
 }
