@@ -1,0 +1,107 @@
+body{
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 1em;
+    padding-bottom: 75px;
+    padding-left: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 1200px;
+}
+.seccion{
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    display: block;
+}
+.caja{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.flex-contenido{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left:0.6em;
+    padding-top: 0.6em;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    transition-duration: 0.4s;
+    align-items: center;
+    text-align: center;
+    width: 18%;
+    box-sizing: inherit;
+    border-radius: 15px;
+}
+.flex-sombra:hover{
+    box-shadow: 1px 1px 1px 1px rgb(224, 220, 220);
+}
+.img{
+    width: 150px;
+    clear: none;
+    position: static;
+    align-self: auto;
+    flex-direction: unset;
+    display: inline-flex;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}      
+.titulo{
+    margin-bottom: 16px;
+    font-weight: 600;
+    color:#583b29 ;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: -1px;
+}
+.base{
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    font-size: 0.72em;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #a84a4a;
+    display: block;
+}
+.ground{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    color: #764c24; 
+}
+.price{
+    color: #5eb14d;
+    font-size: 0.9em;
+}
