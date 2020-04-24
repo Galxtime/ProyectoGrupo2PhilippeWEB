@@ -44,7 +44,7 @@ body {
 
 }
 
-img {
+.imagenes {
     display: flex;
     width: 220px;
     flex-wrap: wrap;
