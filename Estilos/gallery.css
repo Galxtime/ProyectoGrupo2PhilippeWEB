@@ -6,10 +6,11 @@
 .h1 {
     margin-bottom: 16px;
     font-weight: 600;
-    color:#5f3f2d ;
+    color:#5f3f2d;
     font-size: 30px;
     text-align: center;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli',
+    sans-serif;
     letter-spacing: -1px;
 }
 
