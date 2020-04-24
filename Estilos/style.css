@@ -105,3 +105,174 @@ body{
     color: #5eb14d;
     font-size: 0.9em;
 }
+.linea{
+    background-color: #5f3f2d;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    display: block;
+}
+.seccion{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 1200px;
+}
+.container{
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: justify;
+    max-width: 1200px;
+    width: 1000px;
+    align-items: flex-start;
+}
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    padding-top: 0.6em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-bottom: 0.6em;
+    max-width: 10em;
+    width: 10em;
+    text-align: center;
+    box-sizing: inherit;
+}
+.img{
+    width: 2.6em;
+    margin-bottom: 0.4em;
+    max-width: 100%;
+    border-style: none;
+}
+.letra{
+    color: rgba(255,255,255,0.9);
+    font-size: 0.86em;
+    font-weight: 400;
+    line-height: 1.3;
+    display: block;
+}
+.ultimo{
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    display: block;
+    box-sizing: inherit;
+    text-align: center;
+    background-color: #f0edeb;
+}
+.caja-stilo{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 1200px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.arriba{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: flex-start;
+}
+.abajo{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 2em;
+    flex-wrap: nowrap;
+}
+.cajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 12em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 9em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.h4{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 1.1em; 
+}
+.texto{
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 0.8;
+    text-align: left;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    color: rgb(133, 77, 52);
+}
+.stiker{
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 12em;
+    width: 9em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    text-align: left;
+}
+.abajo{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 2em;
+    flex-wrap: nowrap;
+    box-sizing: inherit;
+}
+.frase-arriba{
+    font-weight: 300;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    color: rgb(133, 77, 52);
+}
+.img-ultima{
+    margin-bottom: 0px;
+    max-width: 100%;
+    border-style: none;
+    text-align: center;
+}
+.frase-abajo{
+    color: #764c24;
+    font-size: 0.84em;
+    padding-top: 0px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+}
