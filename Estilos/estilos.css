@@ -13,24 +13,36 @@ body {
     background-color: rgb(158, 112, 81);
     text-align: center;
     justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 100%;
+
     background-image: linear-gradient(rgba(95, 63, 45, 0.6), rgba(95, 63, 45, 0.6)),
         url(https://www.philippe.com.co/wp-content/uploads/2019/12/Philippe-Pastelería-sin-azucar-V31.jpg);
+    text-align: center;
+    background-attachment: fixed;
+
     flex-wrap: wrap;
     padding: 10px;
 
+    padding-top: 50px;
+    width: 1680px;
 
 }
 
 .texto {
 
-    padding: 10px;
-    color: black;
-    background-color: rgb(244, 245, 247);
-    padding-bottom: 20ox;
+
+    color: #f7f4f0;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(95, 63, 45, 0.6), rgba(95, 63, 45, 0.6)),
+        url(https://www.philippe.com.co/wp-content/uploads/2019/12/Philippe-Pastelería-sin-azucar-V31.jpg);
     text-align: center;
+    background-attachment: fixed;
+    margin: 0;
+    width: 1700px;
+
+
+
+    padding-top: 50px;
+    font-size: 200%
 }
 
 .texto_2 {
@@ -40,13 +52,38 @@ body {
     width: 36px;
     height: 36px;
 
+}
+
+.texto_4 {
+
+
+    font-size: 1.2em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.4em;
+    color: #5f3f2d;
+    background-color: white;
 
 
 }
 
+.suscribete {
+
+    letter-spacing: -0.5px;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #5f3f2d;
+    font-weight: 900;
+
+}
+
+
+
 .imagenes {
     display: flex;
-    width: 220px;
+    width: 320px;
     flex-wrap: wrap;
 
 }
@@ -54,7 +91,7 @@ body {
 .cartas {
 
     justify-items: center;
-    width: 300px;
+    width: 320px;
     text-align: center;
     padding: 40px;
     display: block;
@@ -80,12 +117,11 @@ body {
     background-color: rgb(224, 215, 208);
     text-align: center;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(240, 237, 235, 0.6), rgba(240, 237, 235, 0.6)),
-        url(https://www.philippe.com.co/wp-content/uploads/2019/12/spiration-light.png);
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding: 20px;
+    height: 400px;
+    width: 1660px;
+    margin: 0;
+
 }
 
 
@@ -96,107 +132,145 @@ body {
     text-align: center;
     padding: 40px;
     display: block;
-    width: 300px;
+    width: 480px;
+
 }
 
 
 
 .correo {
-    width: 100%;
-    height: 40px;
-    background-color: white;
     text-align: center;
-    color: rgb(19, 22, 21);
-    padding-top: 20px;
-    position: relative;
-    flex-direction: column;
+    font-size: 15px;
+    font-family: Muli;
+    /* color: rgb(153, 153, 153); */
+
+    border-color: rgb(191, 190, 190);
+
+    border-radius: 3px;
 }
 
 
+.css-input {
+    text-align: center;
+    font-size: 15px;
+    font-family: Muli;
+    /* color: rgb(153, 153, 153); */
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(191, 190, 190);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    width: 340px;
+    height: 17;
+    color: rgb(153, 153, 153);
+}
+
+.css-imput {
+    width: 362px;
+    height: 41px;
+    color: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    background-color: #03b185;
+    color: #fff;
+
+}
 
 .formulario {
-    width: 100px;
-    width: 100%;
-    height: 40px;
-    background-color: #6aad5d;
-    text-align: center;
+    width: 340px;
+    height: 17;
+    padding-left: 20px;
+    background-color: #a45dad;
     color: white;
     padding-top: 20px;
-    position: relative;
-    align-items: center;
+    padding-bottom: 20px;
+    margin: 0;
+
 }
 
 
 .iconos {
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    margin: 0;
-    justify-items: center;
-    padding-left: 50px;
-    display: flex;
-    padding-bottom: 10px;
 
+
+    height: 100px;
+    justify-items: center;
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 70px;
 }
 
 
 .siguenos {
-    margin: 0;
-    padding-bottom: 10px;
-    width: 30%;
+
+    line-height: 0.6;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Muli';
+    color: rgb(45, 42, 39);
+    width: 264px;
+    height: 26px;
 
 }
 
 .icon-telefo {
 
 
-
-    text-align: center;
+    display: inline-flex;
+    border-radius: 50%;
     width: 36px;
     height: 36px;
-    margin: 0;
-    justify-items: center;
-    padding-left: 50px;
-    display: flex;
-    margin: 0;
-    padding: 20px;
+    padding-left: 20px;
+
+
 
 }
 
 .asistencia {
-
-    border-left-color: rgba(118, 76, 36, 0.4);
     border-left-style: solid;
     border-left-width: 1px;
     align-items: center;
-    padding: 30px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
     flex-wrap: wrap;
-    width: 350px;
-    flex-direction: column;
-    width: 30%;
+    padding: 20px;
+
 }
 
 .tercer_cuadro {
 
 
     align-items: center;
-    padding: 20px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 30%;
+    text-align: center;
+    width: 264px;
+    height: 155px;
+
+
 }
 
 .contacto {
-
-    width: 240px;
+    width: 264px;
     height: 50px;
-    background-color: rgb(108, 108, 148);
-    text-align: center;
-    padding: 20px;
+    padding-top: 20px;
     background-color: #1e73be;
+    /* padding: 6px 9.6px; */
+    font-size: 13px;
+    /* margin-top: 12px; */
+    /* text-align: center; */
+    padding: 20px;
+    padding-bottom: 0;
     color: white;
-
+    font-size: 15px;
+    text-align: center;
 }
+
+
 
 .texto_3 {
 
@@ -204,7 +278,13 @@ body {
     line-height: 1.1;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 0.4em;
     padding-bottom: 0.4em;
+    padding-top: 0.4em;
+    text-align: center;
 
+}
+
+.contacto_2 {
+
+    margin: 30px
 }
