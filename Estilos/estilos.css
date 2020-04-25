@@ -23,7 +23,7 @@ body {
     padding: 10px;
 
     padding-top: 50px;
-    width: 1680px;
+
 
 }
 
@@ -37,7 +37,7 @@ body {
     text-align: center;
     background-attachment: fixed;
     margin: 0;
-    width: 1700px;
+
 
 
 
@@ -118,8 +118,7 @@ body {
     text-align: center;
     justify-content: space-evenly;
     padding: 20px;
-    height: 400px;
-    width: 1660px;
+
     margin: 0;
 
 }
