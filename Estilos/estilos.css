@@ -83,7 +83,7 @@ body {
 
 .imagenes {
     display: flex;
-    width: 320px;
+    width: 240px;
     flex-wrap: wrap;
 
 }
@@ -259,11 +259,10 @@ body {
     height: 50px;
     padding-top: 20px;
     background-color: #1e73be;
-    /* padding: 6px 9.6px; */
+    padding: 6px 9.6px;
     font-size: 13px;
-    /* margin-top: 12px; */
-    /* text-align: center; */
-    padding: 20px;
+    margin-top: 12px;
+    text-align: center padding: 20px;
     padding-bottom: 0;
     color: white;
     font-size: 15px;
